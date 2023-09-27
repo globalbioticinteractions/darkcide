@@ -1,0 +1,110 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://figshare.com/ndownloader/files/34091945",
+    "dcterms:bibliographicCitation" : "Tanalgo, Krizler; Tabora, John Aries G.; Oliveira, Hernani Fernandes Magalhães; Haelewaters, Danny; Beranek, Chad T.; Otálora-Ardila, Aída; et al. (2021). Metadata for: DarkCideS 1.0, a global database for bats in karsts and caves. figshare. Dataset. https://doi.org/10.6084/m9.figshare.16413405.v4",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "hasParasite",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002445",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Dataset_sequence_ID",
+        "titles" : "Dataset_sequence_ID",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Bat.species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Batfly.parasite",
+        "datatype" : "string"
+      }, {
+        "name" : "Laboulbeniales.hyperparasite",
+        "titles" : "Laboulbeniales.hyperparasite",
+        "datatype" : "string"
+      }, {
+        "name" : "Biogeographical realm",
+        "titles" : "Biogeographical realm",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "First mentioning in the literature",
+        "titles" : "First mentioning in the literature",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Complete reference",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      } ]
+    }
+  },
+  {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://figshare.com/ndownloader/files/34091945",
+    "dcterms:bibliographicCitation" : "Tanalgo, Krizler; Tabora, John Aries G.; Oliveira, Hernani Fernandes Magalhães; Haelewaters, Danny; Beranek, Chad T.; Otálora-Ardila, Aída; et al. (2021). Metadata for: DarkCideS 1.0, a global database for bats in karsts and caves. figshare. Dataset. https://doi.org/10.6084/m9.figshare.16413405.v4",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "hasParasite",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002445",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Dataset_sequence_ID",
+        "titles" : "Dataset_sequence_ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Bat.species",
+        "titles" : "Bat.species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Batfly.parasite",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Laboulbeniales.hyperparasite",
+        "datatype" : "string"
+      }, {
+        "name" : "Biogeographical realm",
+        "titles" : "Biogeographical realm",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "First mentioning in the literature",
+        "titles" : "First mentioning in the literature",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Complete reference",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      } ]
+    }
+  }  ]
+}
